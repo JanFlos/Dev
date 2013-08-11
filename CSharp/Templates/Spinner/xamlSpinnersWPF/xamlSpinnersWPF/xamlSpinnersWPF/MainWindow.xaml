@@ -1,0 +1,25 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:xamlSpinnersWPF"
+	x:Class="xamlSpinnersWPF.MainWindow"
+	x:Name="Window"
+	Title="MainWindow">
+
+	<Grid x:Name="LayoutRoot" Background="#FF3D3D3D" >
+
+		<Grid Margin="79,16,121,-16" >
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="0.15*"/>
+				<ColumnDefinition Width="0.15*"/>
+				<ColumnDefinition Width="0.15*"/>
+				<ColumnDefinition Width="0.15*"/>
+				<ColumnDefinition Width="0.15*"/>
+			</Grid.ColumnDefinitions>
+			<local:ucSpinnerCogs HorizontalAlignment="Center" VerticalAlignment="Center" Margin="28,162.5,94,240.5" Grid.Column="1" Height="102" Width="102" Grid.ColumnSpan="2" IsIndetimate="False"/>
+			<local:ucSpinnerApple Margin="23,85.5,19,240.5" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" Height="179" Width="70"/>
+			<local:ucSpinnerPiston HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Grid.Column="3"/>
+			<local:ucSpinnerSwirl HorizontalAlignment="Center" Margin="0,9,-17,11" Grid.Column="4" Width="24" VerticalAlignment="Center"/>
+			<local:ucSpinnerDotCircle HorizontalAlignment="Center" VerticalAlignment="Center" Height="56" Margin="6,142.5,40,306.5" Width="66" />
+		</Grid>
+	</Grid></Window>

@@ -1,0 +1,10 @@
+﻿/*
+* Synchronizace
+*/
+
+Přečti Atribut lastSynchronization z tabulky Properties Name, Value
+Když bude NULL tak se voupdatuje na aktuální datum
+
+Dotaz na packages se doplní o datum lastSynchronization když nebyl null
+
+Test
