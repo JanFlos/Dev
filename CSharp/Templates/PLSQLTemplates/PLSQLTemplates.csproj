@@ -84,6 +84,10 @@
     <Reference Include="Microsoft.Threading.Tasks.Extensions">
       <HintPath>packages\Microsoft.Bcl.Async.1.0.16\lib\net45\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <Private>True</Private>
+      <HintPath>packages\odp.net.x86.112.3.20\lib\net40\Oracle.DataAccess.dll</HintPath>
+    </Reference>
     <Reference Include="ReactiveUI_Net45">
       <HintPath>packages\reactiveui-core.4.6.4\lib\net45\ReactiveUI_Net45.dll</HintPath>
     </Reference>
