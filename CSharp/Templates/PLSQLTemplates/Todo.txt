@@ -8,3 +8,5 @@ Když bude NULL tak se voupdatuje na aktuální datum
 Dotaz na packages se doplní o datum lastSynchronization když nebyl null
 
 Test
+
+http://www.myget.org/F/aspnetwebstacknightly
